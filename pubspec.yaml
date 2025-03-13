@@ -27,9 +27,10 @@ dependencies:
   image: ^4.1.4
   blurhash_dart: ^1.2.1
   flutter_blurhash: ^0.8.2
-  image_gallery_saver:
+  image_gallery_saver: 
     git:
       url: https://github.com/ahmetbalkan/image_gallery_saver.git
+      ref: master
 
   # entity
   freezed_annotation: ^2.4.1
