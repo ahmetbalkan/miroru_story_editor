@@ -11,6 +11,7 @@ import 'l10n_ja.dart';
 import 'l10n_ko.dart';
 import 'l10n_ru.dart';
 import 'l10n_zh.dart';
+import 'l10n_tr.dart';
 
 // ignore_for_file: type=lint
 
@@ -101,6 +102,7 @@ abstract class L10n {
     Locale('ko'),
     Locale('ru'),
     Locale('zh')
+    Locale('tr')
   ];
 
   /// Label for a button to start drawing on the canvas.
@@ -149,7 +151,7 @@ class _L10nDelegate extends LocalizationsDelegate<L10n> {
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['en', 'hi', 'ja', 'ko', 'ru', 'zh'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['en', 'hi', 'ja', 'ko', 'ru', 'zh', 'tr'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_L10nDelegate old) => false;
@@ -166,6 +168,7 @@ L10n lookupL10n(Locale locale) {
     case 'ko': return L10nKo();
     case 'ru': return L10nRu();
     case 'zh': return L10nZh();
+    case 'tr': return L10nTr();
   }
 
   throw FlutterError(
