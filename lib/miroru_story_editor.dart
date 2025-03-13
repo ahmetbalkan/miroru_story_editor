@@ -13,7 +13,7 @@ Future<Uint8List?> showMiroruStoryEditor(
   BuildContext context, {
   required File imageFile,
   ThemeDataDto? themeDataDto,
-  LanguageType languageType = LanguageType.en,
+  LanguageType languageType = LanguageType.tr,
 }) async {
   return Navigator.of(context).push<Uint8List?>(
     MaterialPageRoute(

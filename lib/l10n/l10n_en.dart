@@ -9,20 +9,20 @@ class L10nEn extends L10n {
   L10nEn([String locale = 'en']) : super(locale);
 
   @override
-  String get draw => 'Draw';
+  String get draw => 'Çiz';
 
   @override
-  String get save => 'Save';
+  String get save => 'Kaydet';
 
   @override
-  String get done => 'Done';
+  String get done => 'Bitti';
 
   @override
-  String get undo => 'Undo';
+  String get undo => 'Geri Al';
 
   @override
-  String get export_failure => 'Failed to export image.';
+  String get export_failure => 'Resim dışa aktarılamadı.';
 
   @override
-  String get export_success => 'Image exported successfully.';
+  String get export_success => 'Resim başarıyla dışa aktarıldı.';
 }

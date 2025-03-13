@@ -1,1 +1,1 @@
-enum LanguageType { en, hi, ja, ko, ru, zh }
+enum LanguageType { en, hi, ja, ko, ru, zh, tr }

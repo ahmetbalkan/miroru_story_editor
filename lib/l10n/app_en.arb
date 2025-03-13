@@ -1,18 +1,18 @@
 {
   "@@locale": "en",
-  "draw": "Draw",
+  "draw": "Çiz",
   "@draw": {
     "description": "Label for a button to start drawing on the canvas."
   },
-  "save": "Save",
+  "save": "Kaydet",
   "@save": {
     "description": "Label for a button to save the current drawing or changes."
   },
-  "done": "Done",
+  "done": "Bitti",
   "@done": {
     "description": "Label for a button to finalize the current operation or editing session."
   },
-  "undo": "Undo",
+  "undo": "Geri al",
   "@undo": {
     "description": "Label for a button to revert the last drawing action."
   },
