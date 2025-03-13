@@ -105,40 +105,40 @@ abstract class L10n {
     Locale('zh')
   ];
 
-  /// Tuval üzerinde çizim yapmaya başlamak için kullanılan buton etiketi.
+  /// Label for a button to start drawing on the canvas.
   ///
   /// In en, this message translates to:
   /// **'Çiz'**
   String get draw;
 
-  /// Geçerli çizimi veya değişiklikleri kaydetmek için kullanılan buton etiketi.
+  /// Label for a button to save the current drawing or changes.
   ///
   /// In en, this message translates to:
   /// **'Kaydet'**
   String get save;
 
-  /// Geçerli işlemi veya düzenleme oturumunu sonlandırmak için kullanılan buton etiketi.
+  /// Label for a button to finalize the current operation or editing session.
   ///
   /// In en, this message translates to:
   /// **'Bitti'**
   String get done;
 
-  /// Son çizim işlemini geri almak için kullanılan buton etiketi.
+  /// Label for a button to revert the last drawing action.
   ///
   /// In en, this message translates to:
-  /// **'Geri Al'**
+  /// **'Geri al'**
   String get undo;
 
-  /// Resim dışa aktarımı başarısız olduğunda gösterilen hata mesajı.
+  /// Error message displayed when the image export fails.
   ///
   /// In en, this message translates to:
-  /// **'Resim dışa aktarılamadı.'**
+  /// **'Failed to export image.'**
   String get export_failure;
 
-  /// Resim dışa aktarımı başarılı olduğunda gösterilen başarı mesajı.
+  /// Success message displayed when the image export is successful.
   ///
   /// In en, this message translates to:
-  /// **'Resim başarıyla dışa aktarıldı.'**
+  /// **'Image exported successfully.'**
   String get export_success;
 }
 

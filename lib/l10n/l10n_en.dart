@@ -18,11 +18,11 @@ class L10nEn extends L10n {
   String get done => 'Bitti';
 
   @override
-  String get undo => 'Geri Al';
+  String get undo => 'Geri al';
 
   @override
-  String get export_failure => 'Resim dışa aktarılamadı.';
+  String get export_failure => 'Failed to export image.';
 
   @override
-  String get export_success => 'Resim başarıyla dışa aktarıldı.';
+  String get export_success => 'Image exported successfully.';
 }
