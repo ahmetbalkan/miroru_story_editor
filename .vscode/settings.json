@@ -6,5 +6,6 @@
   "cSpell.ignorePaths": [
     "**/*.arb" // .arbファイルを無視
   ],
-  "editor.stickyScroll.maxLineCount": 5
+  "editor.stickyScroll.maxLineCount": 5,
+  "java.configuration.updateBuildConfiguration": "interactive"
 }

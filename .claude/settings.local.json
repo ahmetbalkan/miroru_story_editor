@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub get:*)",
+      "Bash(flutter build:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nUpdate to Android SDK 36 and iOS 19\n\n- Android: compileSdk/targetSdk 36, Gradle 8.4, AGP 8.3.0, Kotlin 1.9.22, Java 17\n- iOS: platform 19.0\n- Fix TabBarTheme to TabBarThemeData for Flutter compatibility\n- Update intl package to ^0.20.0\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
