@@ -19,7 +19,7 @@ ThemeData getMiroruThemeLight() {
         ),
       ),
     ),
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: lightColorScheme.primary,
       unselectedLabelColor: lightColorScheme.onSurface.withOpacity(0.5),
       indicator: BoxDecoration(
@@ -165,7 +165,7 @@ ThemeData getMiroruThemeDark() {
         ),
       ),
     ),
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: lightColorScheme.primary,
       unselectedLabelColor: darkColorScheme.onSurface.withOpacity(0.5),
       indicator: BoxDecoration(
